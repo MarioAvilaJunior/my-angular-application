@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class TicTacToeComponent {
   currentPlayer: string = 'O';
   winner: string = '';
+  x: boolean = true;
+  y: boolean = true;
   board: string[][] = [
     ['', '', ''],
     ['', '', ''],
